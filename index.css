@@ -1,20 +1,137 @@
+body {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+}
+
 /* Navbar */
 a.gi {
     text-decoration: none;
+    color: #000;
 }
 a.gi:hover {
     text-decoration: underline;
 }
 
 svg.google_apps {
-    height: 32px;
-    width: 32px;
+    height: 25px;
+    width: 25px;
+    color: #46494d;
+    opacity: 1;
+    fill: currentColor;
+    border-radius: 50%;
+    padding: 8px;
+} 
+
+svg.google_apps:hover {
+    background-color: rgba(168, 154, 154, 0.11);
 }
 
 .nav_icon img {
     background-size: 32px 32px;
     width: 32px;
     height: 32px;
-    border-radius: 50%;
+    border-radius: 60%;
+    padding: 4px;
 }
 
+.nav_icon img:hover {
+    background-color: rgba(168, 154, 154, 0.11);
+}
+
+.flex_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    margin: 10px;
+}
+
+.nav {
+    margin: 7px;
+    padding-top: 14px;
+}
+
+.nav_icon {
+    margin: 8px;
+    margin-right: 5px;
+}
+
+/* Main */
+.google {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.search_box {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #acb1b693;
+    margin: 30px auto 20px auto;
+    width: 100%;
+    border-radius: 1.625rem;
+    max-width: 590px;
+    position: relative;
+    padding-top: 0.8rem;
+    background: transparent;
+    height: 2rem;
+}
+
+.search_box:hover {
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.075);
+}
+
+svg.search {
+    width: 20px;
+    height: 20px;
+    color: #9aa0a6;
+    fill: currentColor;
+    padding-left: 0.8rem;
+    
+}
+ 
+input {
+    background: none;
+    width: 31.25rem;
+    border: none;
+    outline: none;
+    height: 1.8rem;
+    font-size: 1rem;
+    font-weight: 100;
+    margin: -0.3rem 0 0 1rem;
+    color: rgba(0,0,0,.87);
+}
+
+
+
+svg.mic {
+    width: 24px;
+    height: 24px;
+    padding-right: 0.8rem;
+}
+
+/* Buttons */
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    margin: 12px 5px;
+    border-radius: 5px;
+    padding: 10px 16px;
+    font-size: 14px;
+}
+
+button:hover {
+    border-color: #9aa0a650;
+}
+
+button:active {
+    border-color: #0000ff;
+}
