@@ -5,11 +5,11 @@ body {
 }
 
 /* Navbar */
-a.gi {
+.gi {
     text-decoration: none;
     color: #000;
 }
-a.gi:hover {
+.gi:hover {
     text-decoration: underline;
 }
 
@@ -116,7 +116,6 @@ svg.mic {
 .button {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 button {
@@ -124,8 +123,10 @@ button {
     border: 1px solid #f8f9fa;
     margin: 12px 5px;
     border-radius: 5px;
-    padding: 10px 16px;
+    padding: 0.4rem 1rem;
     font-size: 14px;
+    color: #4d5156;
+    line-height: 24px;
 }
 
 button:hover {
@@ -134,4 +135,31 @@ button:hover {
 
 button:active {
     border-color: #0000ff;
+}
+
+/* links to languages */
+.languages {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    line-height: 28px;
+    font-size: small;
+}
+
+.language {
+    margin: 0.2rem;
+    padding: 0 0.2rem;
+}
+
+#offer {
+    color: #4d5156;
+}
+
+a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+a:hover {
+    text-decoration: underline;
 }
