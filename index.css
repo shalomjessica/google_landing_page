@@ -1,13 +1,15 @@
 body {
-    font-size: 12px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #202124;
+    margin: 0;
 }
 
 /* Navbar */
 .gi {
     text-decoration: none;
     color: #000;
+    font-size: 12px;
 }
 .gi:hover {
     text-decoration: underline;
@@ -144,6 +146,7 @@ button:active {
     margin: 0.5rem;
     line-height: 28px;
     font-size: small;
+    flex-grow: 1;
 }
 
 .language {
@@ -162,4 +165,49 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: #9aa0a61e;
+    color: #70757a;
+    text-transform: capitalize;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerB {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.country {
+    border-bottom: 1px solid #dadce0;
+    padding: 1rem 1.3rem;
+
+}
+
+.about a {
+    color: #70757a;
+    margin-right: 1rem;
+ }
+
+ .about {
+    padding: 1rem 1.3rem;
+ }
+
+ .copyright {
+    margin-left: -8rem;
+ }
+ .copyright img {
+    height: 15px;      
+ }
+
+.copyright a {
+    text-transform: none;
+    text-align: center;
+    color: #70757a;
 }
