@@ -31,9 +31,9 @@ svg.google_apps:hover {
 
 .nav_icon img {
     background-size: 32px 32px;
-    width: 32px;
-    height: 32px;
-    border-radius: 60%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     padding: 4px;
 }
 
